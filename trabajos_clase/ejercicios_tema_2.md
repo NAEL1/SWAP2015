@@ -17,7 +17,7 @@ ISP           95%
 
 
 Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces mas:
- (*) no tiene sentido  replicar el Datacenter a no ser que seas Google o Twitter
+ (*) no tiene sentido  replicar el Datacenter a no ser que seas Google o Twitter :comupter:
 
   -**Para servidor web**:
 
