@@ -81,22 +81,28 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
 
 
 #Ejercicio T2.2:
-Buscar frameworks y librerías para diferentes lenguajes que
+*Buscar frameworks y librerías para diferentes lenguajes que
 permitan hacer aplicaciones altamente disponibles con
 relativa facilidad.
 Como ejemplo, examina PM2
 https://github.com/Unitech/pm2
-que sirve para administrar clústeres de NodeJS.
+que sirve para administrar clústeres de NodeJS.*
 
-  -JGroups es un toolkit (multi-plataforma) escrito en Java que permite el intercambio de mensajes
+  -**JGroups** es un toolkit (multi-plataforma) escrito en Java que permite el intercambio de mensajes
    confiable(no se pierde ningún mensaje), se puede  usar para crear clusters donde sus nodos
    pueden mandar mensajes entre ellos, sus características principales son:
-      - la creación y eliminación de clusters, los nodos de los cluster pueden anclarse a través de LAN y WAN
-      - Altas y bajas de los clusterse
-      - Detección de Membresía y notificación sobre nodos que  se han unido , dejado o que se han caído del cluster
-      - Detección y eliminación de nodos caidos
-      - Envío y recepción de mensajes de nodo a clúster (punto a multipunto)
-      - Envío y recepción de mensajes de nodo a nodo (punto a punto)
+
+          - la creación y eliminación de clusters, los nodos de los cluster pueden anclarse a través de LAN y WAN
+
+          - Altas y bajas de los clusterse
+
+          - Detección de Membresía y notificación sobre nodos que  se han unido , dejado o que se han caído del cluster
+
+          - Detección y eliminación de nodos caidos.
+
+          - Envío y recepción de mensajes de nodo a clúster (punto a multipunto).
+
+          - Envío y recepción de mensajes de nodo a nodo (punto a punto.
 
 
 
