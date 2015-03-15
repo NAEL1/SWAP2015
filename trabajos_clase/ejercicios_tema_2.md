@@ -19,7 +19,7 @@ ISP           95%
 Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces mas:
  (*) no tiene sentido  replicar el Datacenter a no ser que seas Google o Twitter
 
- -**Para servidor web**:
+  -**Para servidor web**:
 
    replicando una segundo servidor
     Disponibilidad_web2=85%+(1-0,85)*85%=97,75%
@@ -27,7 +27,7 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
    replicando un tercer servidor
     Disponibilidad_web3=95,75%+(1-0,9775)*85%=99,6625%
 
- -**Para servidor de aplicaciones**:
+  -**Para servidor de aplicaciones**:
 
    replicando una segundo servidor
     Disponibilidad_Aplication2=90%+(1-0,9)*90%=99%
@@ -35,7 +35,7 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
    replicando un tercer servidor
     Disponibilidad_Aplication3=99%+(1-0,99)*90%=99,9%
 
- -**Para servidor de base de datos**:
+  -**Para servidor de base de datos**:
 
     replicando una segundo servidor
     Disponibilidad_database2=99,9%+(1-0,999)*99,9%=99,9999%
@@ -52,7 +52,7 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
       Disponibilidad_DNS=99,96%+(1-0,9996)*98%=99,9992%
 
 
-   -**Para Firewall**:
+  -**Para Firewall**:
 
       replicando un segundo firewall:
        Disponibilidad_Firewall2=85%+(1-0,85)*85%=97,75%
@@ -61,7 +61,7 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
        Disponibilidad_Firewall3=97,75%+(1-0,9775)*85%=99,6625%
 
 
-   -**Para Switch**:
+  -**Para Switch**:
 
       replicando un segundo Switch:
        Disponibilidad_Switch2=99%+(1-.99)*99%=99,99%
@@ -69,7 +69,7 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
       replicando un tercer Switch:
        Disponibilidad_Switch3=99,99%+(1-.9999)*99%=99,9999
 
-   -**Para ISP**:
+  -**Para ISP**:
 
        replicando un segundo Switch:
         Disponibilidad_Switch2=95%+(1-.95)*95%=99,75%
