@@ -21,18 +21,18 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
 
   -**Para servidor web**:
 
-   replicando una segundo servidor
+    replicando una segundo servidor
     Disponibilidad_web2=85%+(1-0,85)*85%=97,75%
 
-   replicando un tercer servidor
+    replicando un tercer servidor
     Disponibilidad_web3=95,75%+(1-0,9775)*85%=99,6625%
 
   -**Para servidor de aplicaciones**:
 
-   replicando una segundo servidor
+    replicando una segundo servidor
     Disponibilidad_Aplication2=90%+(1-0,9)*90%=99%
 
-   replicando un tercer servidor
+    replicando un tercer servidor
     Disponibilidad_Aplication3=99%+(1-0,99)*90%=99,9%
 
   -**Para servidor de base de datos**:
