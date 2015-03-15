@@ -131,10 +131,10 @@ almacenamiento.*
     * ZVA64 EE 3110 Virtual Appliance (Zen Load Balancer):
     [Enlace Producto](http://www.zenloadbalancer.com/products/zva64-ee3110-virtual-appliance/)
 
-    *ProxyOS(Distribución Linux orientada al balanceo de carga) :
+    * ProxyOS(Distribución Linux orientada al balanceo de carga) :
     [Enlace Producto](http://proxyos.org/)
 
-    
+
   * Balanciadores Hardware:
     * KEMP LoadMaster :
       [Enlace Productos](http://kemptechnologies.com/es/server-load-balancing-appliances/product-matrix.html)
