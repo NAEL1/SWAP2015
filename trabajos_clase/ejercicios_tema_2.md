@@ -128,18 +128,20 @@ Buscar productos comerciales para servidores de
 almacenamiento.*
 
   * Balanciadores Software:
+    * ZVA64 EE 3110 Virtual Appliance (Zen Load Balancer):
+    [Enlace Producto](http://www.zenloadbalancer.com/products/zva64-ee3110-virtual-appliance/)
 
+    *ProxyOS(Distribución Linux orientada al balanceo de carga) :
+    [Enlace Producto](http://proxyos.org/)
+
+    
   * Balanciadores Hardware:
     * KEMP LoadMaster :
       [Enlace Productos](http://kemptechnologies.com/es/server-load-balancing-appliances/product-matrix.html)
       [Video Tutorial](https://vimeo.com/84309008)
+
     * NetScaler de citrix :
       [Enlace Producto](http://www.citrix.com/products/netscaler-application-delivery-controller/tech-info.html)
 
     * BIG-IP de F5 :
       [Enlace Producto](https://f5.com/products/big-ip)
-
-
-
-
-pendiente
