@@ -64,18 +64,18 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
   -**Para Switch**:
 
       replicando un segundo Switch:
-       Disponibilidad_Switch2=99%+(1-.99)*99%=99,99%
+       >Disponibilidad_Switch2=99%+(1-.99)*99%=99,99%
 
       replicando un tercer Switch:
-       Disponibilidad_Switch3=99,99%+(1-.9999)*99%=99,9999
+       >Disponibilidad_Switch3=99,99%+(1-.9999)*99%=99,9999
 
   -**Para ISP**:
 
        replicando un segundo Switch:
-        Disponibilidad_Switch2=95%+(1-.95)*95%=99,75%
+        >Disponibilidad_Switch2=95%+(1-.95)*95%=99,75%
 
        replicando un tercer Switch:
-        Disponibilidad_Switch3=99,75%+(1-.9975)*95%=99,9875%
+        >Disponibilidad_Switch3=99,75%+(1-.9975)*95%=99,9875%
 
 
 
@@ -107,20 +107,20 @@ que sirve para administrar clústeres de NodeJS.*
 
 
 #Ejercicio T2.3:
-¿Cómo analizar el nivel de carga de cada uno de los
+*¿Cómo analizar el nivel de carga de cada uno de los
 subsistemas en el servidor?
 Buscar herramientas y aprender a usarlas.
-...¡o recordar cómo usarlas!
+...¡o recordar cómo usarlas!*
 
 Pendiente
 
 
 #Ejercicio T2.4:
-Buscar ejemplos de balanceadores software y hardware
+*Buscar ejemplos de balanceadores software y hardware
 (productos comerciales).
 Buscar productos comerciales para servidores de
 aplicaciones.
 Buscar productos comerciales para servidores de
-almacenamiento.
+almacenamiento.*
 
 pendiente
