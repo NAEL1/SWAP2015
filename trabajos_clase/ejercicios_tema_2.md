@@ -64,18 +64,18 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
   -**Para Switch**:
 
       replicando un segundo Switch:
-       >Disponibilidad_Switch2=99%+(1-.99)*99%=99,99%
+       Disponibilidad_Switch2=99%+(1-.99)*99%=99,99%
 
       replicando un tercer Switch:
-       >Disponibilidad_Switch3=99,99%+(1-.9999)*99%=99,9999
+       Disponibilidad_Switch3=99,99%+(1-.9999)*99%=99,9999
 
   -**Para ISP**:
 
        replicando un segundo Switch:
-        >Disponibilidad_Switch2=95%+(1-.95)*95%=99,75%
+        Disponibilidad_Switch2=95%+(1-.95)*95%=99,75%
 
        replicando un tercer Switch:
-        >Disponibilidad_Switch3=99,75%+(1-.9975)*95%=99,9875%
+        Disponibilidad_Switch3=99,75%+(1-.9975)*95%=99,9875%
 
 
 
@@ -112,8 +112,11 @@ subsistemas en el servidor?
 Buscar herramientas y aprender a usarlas.
 ...¡o recordar cómo usarlas!*
 
-Pendiente
+  “**Nagios** es un sistema de monitorización de redes ampliamente utilizado, de código abierto, que vigila los equipos (hardware) y servicios (software) que se especifiquen, alertando cuando el comportamiento de los mismos no sea el deseado. Entre sus características principales figuran la monitorización de servicios de red (SMTP, POP3, HTTP, SNMP...), la monitorización de los recursos de sistemas hardware (carga del procesador, uso de los discos, memoria, estado de los puertos...), independencia de sistemas operativos, posibilidad de monitorización remota mediante túneles SSL cifrados o SSH, y la posibilidad de programar plugins específicos para nuevos sistemas.” fuente:https://es.wikipedia.org/wiki/Nagios
 
+  **Ganglia** es una herramienta de monitorización  de sistema escalable y distribuida para sistemas de computacionales de altas prestaciones  tales como clusters o grids . Permite al usuario ver  de forma remota  las estadísticas  de todas las maquinas monitorizadas ya sea en directo o consultando el historial. fuente:ISE-P3-MonitProfiing.pdf
+
+  Además de otras mencionadas en el guión de practica P3 de ISE.
 
 #Ejercicio T2.4:
 *Buscar ejemplos de balanceadores software y hardware
