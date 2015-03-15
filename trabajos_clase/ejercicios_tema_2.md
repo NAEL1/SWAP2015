@@ -60,7 +60,9 @@ Calculamos la disponibilidad para cada uno de los elementos replicados 2 veces m
       replicando un tercer firewall:
        Disponibilidad_Firewall3=97,75%+(1-0,9775)*85%=99,6625%
 
+
     -**Para Switch**:
+
       replicando un segundo Switch:
        Disponibilidad_Switch2=99%+(1-.99)*99%=99,99%
 
