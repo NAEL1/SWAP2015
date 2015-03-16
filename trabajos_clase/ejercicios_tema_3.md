@@ -14,5 +14,3 @@ pendiente.
       * tc :
     * Herramientas gráficas :
       * Shorewall :
-
-pendiente.
