@@ -22,7 +22,6 @@ En mi caso rsync ya venia instalado en la ditribucion pero si tuviera que instal
  Para clonar la carpeta /var/www/ de la maquina1 en la maquina2 ejecuto el comando: `rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/` en la maquina2.
 
  Para probar si ha funcionado ejecuto `ls` sobre `/var/www` de la segunda maquina antes y despues de haber ejecutado el comando anterior:
-
-![imagen3-1](https://github.com/NAEL1/SWAP2015/blob/master/practica2/Pr2_3.1.png)
+ ![Imagen3-1](https://github.com/NAEL1/SWAP2015/blob/master/practica2/Pr2_3.1.png)
 
 imagen
