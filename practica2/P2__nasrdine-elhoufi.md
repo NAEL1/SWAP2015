@@ -39,4 +39,24 @@ Lo primero es generar la clave del tipo dsa en la maquina  2 con `ssh-keygen`, D
  Para comprobar si todo ha ido bien solicito entrar a la maquina 1 via ssh sin proporcionar clave:
 
  ![imagen4-2](https://github.com/NAEL1/SWAP2015/blob/master/practica2/Pr2_4.2.png)
- 
+
+ Como se puede apreciar en la foto he tenido acceso a la maquina1 desde la maquina2 y no se me ha solicitado ninguna clave.
+
+ ## 5. Programar tareas con crontab:
+ Para realiza una copia de seguridada de la carpeta /var/www/ de la maquina 1 en la maquina 2
+hay que editar el archivo /etc/contab añadiendo la linea :
+
+`*/1 * * * * root rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/`
+ ![img5-2](https://github.com/NAEL1/SWAP2015/blob/master/practica2/Pr2_5-2.png)
+
+Otra alternativa es crear un script(backup.sh) como sigue:
+
+`#! /bin/bash
+rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/
+`
+
+Darle permisos de ejecucion `chmod +x backup.sh`
+
+Editar el crontab como sigue:
+
+`00-59 * * * * root cd / && ./backup.sh`
