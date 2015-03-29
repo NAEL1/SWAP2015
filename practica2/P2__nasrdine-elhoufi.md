@@ -23,4 +23,4 @@ En mi caso rsync ya venia instalado en la ditribucion pero si tuviera que instal
 
  Para probar si ha funcionado ejecuto `ls` sobre `/var/www` de la segunda maquina antes y despues de haber ejecutado el comando anterior
 
- ![imagen3-1](https://github.com/NAEL1/SWAP2015/blob/master/practica2/Pr2_3.1.png)
+![imagen3-1](https://github.com/NAEL1/SWAP2015/blob/master/practica2/Pr2_3.1.png)
