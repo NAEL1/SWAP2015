@@ -55,6 +55,7 @@ hay que editar el archivo /etc/contab añadiendo la linea :
 Otra alternativa es crear un script(backup.sh) como sigue:
 
 `#! /bin/bash
+
 rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/
 `
 
