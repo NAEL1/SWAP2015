@@ -87,5 +87,8 @@ lo primero guardo una copia de seguridad del la configuracion por defecto `sudo 
 
 ![imagen Pr3-13](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-13.png)
 
+### 3.3. Comprobar el funcionamiento del balanceador
 
+Una vez guardada la configuración ejecuto el comando `sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg` y como no da salido ningun mensaje de error hago solicitudes http al balanceador, como se puede observar hace balanceo round-robin
 
+![imagen Pr3-14](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-14.png)
