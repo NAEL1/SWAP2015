@@ -39,3 +39,10 @@ Para probar si todo ha ido bien primero modifico los archivos index.html de los 
 ![imagen Pr3-6](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-6.png)
 
 
+ahora edito el archivo de configuración para darle mas  peso a la maquina 2 de forma que cada 3 peticiones una vaya a parar a la maquina 1  y dos a la maquina 2
+
+![imagen Pr3-7](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-7.png)
+
+como se puede apreciar los resultados se ajustan a lo comentado anteriormente 
+
+![imagen Pr3-8](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-7.png)
