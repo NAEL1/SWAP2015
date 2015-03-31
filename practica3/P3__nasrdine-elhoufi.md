@@ -79,5 +79,13 @@ Primero paramos nginx y luego instalamos haproxy
 
 ![imagen Pr3-12](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-12.png)
 
-### 3,.2. Configuración básica de haproxy como balanceador de carga
+### 3.2. Configuración básica de haproxy como balanceador de carga
+
+Ahora hay que configurar el archivo /etc/haproxy/haproxy.cfg
+
+lo primero guardo una copia de seguridad del la configuracion por defecto `sudo mv  /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup` y creo el nuevo archivo /etc/haproxy/haproxy.cfg como sigue :
+
+![imagen Pr3-13](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-13.png)
+
+
 
