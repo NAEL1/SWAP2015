@@ -1,12 +1,14 @@
 # Práctica 3
 
-## 1. Estructura de  maquinas:
+## 1. Estructura de  maquinas
 
 numero de la maquina|Nombre de la maquina | Digrección IP
------------|------------ | -------------g
+-----------|------------ | -------------
 Maquina1 | Ubuntuserver | 192.168.187.133
 Maquina2 | Ubuntuserver2 | 192.168.187.135
 Maquina3 | Balanceador	|	192.168.187.136
+
+
 
 ## 2. El servidor web nginx
 
@@ -66,4 +68,9 @@ Un ejemplo de configuración seria el que sigue
 
 Tenemos 3 servidores el primero con un peso 3, El segundo con un peso 2 ademas si devuelve 2 fallos de petición en un intervalo de 15 segundos se marcara como no disponible, El tercer servidor es el mismo balanceador escuchando por el puerto 8080 ya que el 80 lo usa nginx  y esta marcado como backup  por lo que no se le mandara peticiones hasta que los otros 2 no estén disponibles.
 En location ponemos `health_check` de manera que vaya preguntando el estado a los servidores cada 
- segundos y en caso que falle 3 veces la repuesta de algún servidor lo marque como no disponible.
+ 60 segundos y en caso que falle 3 veces la repuesta de algún servidor lo marque como no disponible.
+
+
+ ## 3. Balanceo de carga con haproxy
+
+ ### 2.1. Instalar haproxy
