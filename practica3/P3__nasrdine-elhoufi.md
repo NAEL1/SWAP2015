@@ -45,4 +45,4 @@ ahora edito el archivo de configuración para darle mas  peso a la maquina 2 de 
 
 como se puede apreciar los resultados se ajustan a lo comentado anteriormente 
 
-![imagen Pr3-8](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-7.png)
+![imagen Pr3-8](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-8.png)
