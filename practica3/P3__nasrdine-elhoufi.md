@@ -34,7 +34,7 @@ Lo edito de la siguiente forma
 
 ![imagen Pr3-5](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-5.png)
 
-Para probar si todo ha ido bien primero modifico los archivos index.html de los dos servidores Back-end  poniendo su nombre y IP en el archivo, luego reinicio ngix y hago solicitudes http al balanceador, se ve en la imagen que el balanceador reenvía la 'primera solicitud primero a la maquina 2 y la segunda a la maquina 1
+Para probar si todo ha ido bien primero modifico los archivos index.html de los dos servidores Back-end  poniendo su nombre y IP en el archivo, luego reinicio ngix y hago solicitudes http al balanceador, se ve en la imagen que el balanceador reenvía la primera solicitud primero a la maquina 2 y la segunda a la maquina 1
 
 ![imagen Pr3-6](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-6.png)
 
