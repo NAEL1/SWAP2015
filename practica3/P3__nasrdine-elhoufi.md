@@ -71,6 +71,13 @@ En location ponemos `health_check` de manera que vaya preguntando el estado a lo
  60 segundos y en caso que falle 3 veces la repuesta de algún servidor lo marque como no disponible.
 
 
- ## 3. Balanceo de carga con haproxy
+## 3. Balanceo de carga con haproxy
 
- ### 2.1. Instalar haproxy
+### 3.1. Instalar haproxy
+
+Primero paramos nginx y luego instalamos haproxy
+
+![imagen Pr3-12](https://github.com/NAEL1/SWAP2015/blob/master/practica3/Pr3-12.png)
+
+### 3,.2. Configuración básica de haproxy como balanceador de carga
+
