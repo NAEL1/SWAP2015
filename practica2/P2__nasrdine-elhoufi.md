@@ -20,7 +20,7 @@ En mi caso rsync ya venia instalado en la distribución pero si tuviera que inst
 `sudo apt-get install rsync`
 
  Para clonar la carpeta /var/www/ de la maquina 1 en la maquina 2 ejecuto el comando:
- ```
+ ```zsh
 rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/`
 ```
 
@@ -61,7 +61,7 @@ hay que editar el archivo /etc/contab añadiendo la linea :
 
 Otra alternativa es crear un script(backup.sh) como sigue:
 
-```
+```sh
 #! /bin/bash
 
 rsync -avz -e ssh root@192.168.187.133:/var/www/ /var/www/
