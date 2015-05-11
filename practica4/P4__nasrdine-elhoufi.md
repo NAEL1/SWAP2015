@@ -25,6 +25,8 @@ Para empezar creamos un script php para que las solicitudes sean mas costosas:
  ![P4-2.png](https://github.com/NAEL1/SWAP2015/blob/master/practica4/p4-2.png)
 
  Despues de obtener los archivos podemos automatizar la seleccion de los datos que nos interesan.
+ 
+ ![p4-3](https://github.com/NAEL1/SWAP2015/blob/master/practica4/p4-3.png)
 
 
 
