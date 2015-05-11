@@ -1,0 +1,1306 @@
+########################    Prueba 1 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.493 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2863.27 [#/sec] (mean)
+Time per request:       3.493 [ms] (mean)
+Time per request:       0.349 [ms] (mean, across all concurrent requests)
+Transfer rate:          1420.45 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       5
+Processing:     1    3   1.2      3      23
+Waiting:        1    3   1.2      3      23
+Total:          1    3   1.2      3      23
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      7
+ 100%     23 (longest request)
+########################    Prueba 2 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.805 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2627.88 [#/sec] (mean)
+Time per request:       3.805 [ms] (mean)
+Time per request:       0.381 [ms] (mean, across all concurrent requests)
+Transfer rate:          1303.68 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      0       3
+Processing:     1    3   1.2      3      17
+Waiting:        1    3   1.2      3      17
+Total:          1    4   1.2      4      18
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      4
+  80%      5
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%     18 (longest request)
+########################    Prueba 3 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.854 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2594.72 [#/sec] (mean)
+Time per request:       3.854 [ms] (mean)
+Time per request:       0.385 [ms] (mean, across all concurrent requests)
+Transfer rate:          1287.22 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      1       3
+Processing:     1    3   3.8      3     122
+Waiting:        1    3   3.8      3     122
+Total:          1    4   3.8      3     122
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%    122 (longest request)
+########################    Prueba 4 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.398 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2942.82 [#/sec] (mean)
+Time per request:       3.398 [ms] (mean)
+Time per request:       0.340 [ms] (mean, across all concurrent requests)
+Transfer rate:          1459.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.0      3      16
+Waiting:        1    3   1.0      3      14
+Total:          1    3   1.0      3      16
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     16 (longest request)
+########################    Prueba 5 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.351 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2984.17 [#/sec] (mean)
+Time per request:       3.351 [ms] (mean)
+Time per request:       0.335 [ms] (mean, across all concurrent requests)
+Transfer rate:          1480.43 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.0      3      17
+Waiting:        1    3   1.0      3      16
+Total:          1    3   1.0      3      17
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     17 (longest request)
+########################    Prueba 6 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.604 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2774.44 [#/sec] (mean)
+Time per request:       3.604 [ms] (mean)
+Time per request:       0.360 [ms] (mean, across all concurrent requests)
+Transfer rate:          1376.38 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.4      3      26
+Waiting:        1    3   1.4      3      26
+Total:          1    4   1.4      3      26
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%     26 (longest request)
+########################    Prueba 7 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.559 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2809.80 [#/sec] (mean)
+Time per request:       3.559 [ms] (mean)
+Time per request:       0.356 [ms] (mean, across all concurrent requests)
+Transfer rate:          1393.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      0       3
+Processing:     1    3   1.1      3      20
+Waiting:        1    3   1.0      3      16
+Total:          1    4   1.1      3      20
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      6
+  99%      7
+ 100%     20 (longest request)
+########################    Prueba 8 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.462 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2888.75 [#/sec] (mean)
+Time per request:       3.462 [ms] (mean)
+Time per request:       0.346 [ms] (mean, across all concurrent requests)
+Transfer rate:          1433.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.1      3      15
+Waiting:        1    3   1.0      3      15
+Total:          1    3   1.1      3      16
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     16 (longest request)
+########################    Prueba 9 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.463 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2887.88 [#/sec] (mean)
+Time per request:       3.463 [ms] (mean)
+Time per request:       0.346 [ms] (mean, across all concurrent requests)
+Transfer rate:          1432.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.0      3      10
+Waiting:        1    3   1.0      3      10
+Total:          2    3   1.0      3      10
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     10 (longest request)
+########################    Prueba 10 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.562 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2807.72 [#/sec] (mean)
+Time per request:       3.562 [ms] (mean)
+Time per request:       0.356 [ms] (mean, across all concurrent requests)
+Transfer rate:          1392.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.0      3      10
+Waiting:        1    3   1.0      3      10
+Total:          1    4   1.1      3      11
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      7
+ 100%     11 (longest request)
+########################    Prueba 11 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.232 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    3093.95 [#/sec] (mean)
+Time per request:       3.232 [ms] (mean)
+Time per request:       0.323 [ms] (mean, across all concurrent requests)
+Transfer rate:          1534.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     1    3   0.9      3      11
+Waiting:        1    3   0.9      2      11
+Total:          1    3   0.9      3      11
+WARNING: The median and mean for the waiting time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      3
+  75%      4
+  80%      4
+  90%      4
+  95%      5
+  98%      6
+  99%      6
+ 100%     11 (longest request)
+########################    Prueba 12 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.459 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2890.75 [#/sec] (mean)
+Time per request:       3.459 [ms] (mean)
+Time per request:       0.346 [ms] (mean, across all concurrent requests)
+Transfer rate:          1434.09 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       2
+Processing:     1    3   1.1      3      13
+Waiting:        1    3   1.0      3      13
+Total:          1    3   1.1      3      13
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     13 (longest request)
+########################    Prueba 13 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.474 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2878.20 [#/sec] (mean)
+Time per request:       3.474 [ms] (mean)
+Time per request:       0.347 [ms] (mean, across all concurrent requests)
+Transfer rate:          1427.86 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       2
+Processing:     1    3   1.0      3      15
+Waiting:        1    3   1.0      3      15
+Total:          1    3   1.0      3      15
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     15 (longest request)
+########################    Prueba 14 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.450 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2898.94 [#/sec] (mean)
+Time per request:       3.450 [ms] (mean)
+Time per request:       0.345 [ms] (mean, across all concurrent requests)
+Transfer rate:          1438.15 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.1      3      19
+Waiting:        1    3   1.0      3      18
+Total:          1    3   1.1      3      19
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     19 (longest request)
+########################    Prueba 15 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.462 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2888.39 [#/sec] (mean)
+Time per request:       3.462 [ms] (mean)
+Time per request:       0.346 [ms] (mean, across all concurrent requests)
+Transfer rate:          1432.91 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       3
+Processing:     1    3   1.0      3      13
+Waiting:        1    3   1.0      3      13
+Total:          1    3   1.0      3      14
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     14 (longest request)
+########################    Prueba 16 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.562 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2807.15 [#/sec] (mean)
+Time per request:       3.562 [ms] (mean)
+Time per request:       0.356 [ms] (mean, across all concurrent requests)
+Transfer rate:          1392.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     1    3   1.0      3      11
+Waiting:        1    3   1.0      3      11
+Total:          1    4   1.1      3      12
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      6
+  99%      7
+ 100%     12 (longest request)
+########################    Prueba 17 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.728 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2682.41 [#/sec] (mean)
+Time per request:       3.728 [ms] (mean)
+Time per request:       0.373 [ms] (mean, across all concurrent requests)
+Transfer rate:          1330.73 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       6
+Processing:     1    3   1.5      3      26
+Waiting:        1    3   1.4      3      26
+Total:          1    4   1.5      3      26
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%     26 (longest request)
+########################    Prueba 18 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.135 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2418.26 [#/sec] (mean)
+Time per request:       4.135 [ms] (mean)
+Time per request:       0.414 [ms] (mean, across all concurrent requests)
+Transfer rate:          1199.68 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     1    4   1.8      3      39
+Waiting:        0    3   1.7      3      39
+Total:          1    4   1.8      4      40
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%      7
+  98%      9
+  99%     10
+ 100%     40 (longest request)
+########################    Prueba 19 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   5.553 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    1800.70 [#/sec] (mean)
+Time per request:       5.553 [ms] (mean)
+Time per request:       0.555 [ms] (mean, across all concurrent requests)
+Transfer rate:          893.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.3      1       5
+Processing:     1    5  18.4      4     586
+Waiting:        1    5  17.4      4     586
+Total:          1    6  18.4      4     587
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      5
+  75%      5
+  80%      6
+  90%      7
+  95%      9
+  98%     13
+  99%     16
+ 100%    587 (longest request)
+########################    Prueba 20 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.279 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2336.79 [#/sec] (mean)
+Time per request:       4.279 [ms] (mean)
+Time per request:       0.428 [ms] (mean, across all concurrent requests)
+Transfer rate:          1159.27 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.3      1       6
+Processing:     1    4   1.9      3      35
+Waiting:        1    4   1.9      3      35
+Total:          1    4   1.9      4      35
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%      7
+  98%      9
+  99%     11
+ 100%     35 (longest request)
+########################    Prueba 21 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.184 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2389.99 [#/sec] (mean)
+Time per request:       4.184 [ms] (mean)
+Time per request:       0.418 [ms] (mean, across all concurrent requests)
+Transfer rate:          1185.66 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.3      0       4
+Processing:     1    4   1.6      3      27
+Waiting:        1    4   1.5      3      27
+Total:          1    4   1.6      4      28
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%      7
+  98%      8
+  99%      9
+ 100%     28 (longest request)
+########################    Prueba 22 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.146 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2411.92 [#/sec] (mean)
+Time per request:       4.146 [ms] (mean)
+Time per request:       0.415 [ms] (mean, across all concurrent requests)
+Transfer rate:          1196.54 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       6
+Processing:     1    4   2.6      3      69
+Waiting:        1    3   2.6      3      69
+Total:          1    4   2.6      4      70
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%      7
+  98%      9
+  99%     10
+ 100%     70 (longest request)
+########################    Prueba 23 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.087 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2446.95 [#/sec] (mean)
+Time per request:       4.087 [ms] (mean)
+Time per request:       0.409 [ms] (mean, across all concurrent requests)
+Transfer rate:          1213.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.3      0       5
+Processing:     1    4   1.8      3      38
+Waiting:        1    3   1.7      3      38
+Total:          1    4   1.8      4      38
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%      7
+  98%      8
+  99%      9
+ 100%     38 (longest request)
+########################    Prueba 24 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   4.329 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2310.09 [#/sec] (mean)
+Time per request:       4.329 [ms] (mean)
+Time per request:       0.433 [ms] (mean, across all concurrent requests)
+Transfer rate:          1146.02 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.3      0      12
+Processing:     1    4   2.2      3      40
+Waiting:        1    4   2.2      3      38
+Total:          1    4   2.3      4      41
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      5
+  80%      5
+  90%      6
+  95%      7
+  98%      9
+  99%     12
+ 100%     41 (longest request)
+########################    Prueba 25 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.934 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2541.78 [#/sec] (mean)
+Time per request:       3.934 [ms] (mean)
+Time per request:       0.393 [ms] (mean, across all concurrent requests)
+Transfer rate:          1260.96 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.3      0       6
+Processing:     1    3   1.6      3      25
+Waiting:        1    3   1.5      3      24
+Total:          1    4   1.6      4      26
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      4
+  66%      4
+  75%      4
+  80%      5
+  90%      6
+  95%      7
+  98%      8
+  99%     10
+ 100%     26 (longest request)
+########################    Prueba 26 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.678 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2718.90 [#/sec] (mean)
+Time per request:       3.678 [ms] (mean)
+Time per request:       0.368 [ms] (mean, across all concurrent requests)
+Transfer rate:          1348.83 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       4
+Processing:     1    3   1.9      3      46
+Waiting:        1    3   1.9      3      46
+Total:          1    4   1.9      3      47
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%     47 (longest request)
+########################    Prueba 27 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.667 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2726.75 [#/sec] (mean)
+Time per request:       3.667 [ms] (mean)
+Time per request:       0.367 [ms] (mean, across all concurrent requests)
+Transfer rate:          1352.72 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       5
+Processing:     1    3   1.2      3      21
+Waiting:        1    3   1.2      3      21
+Total:          1    4   1.3      3      22
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%     22 (longest request)
+########################    Prueba 28 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.441 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2906.47 [#/sec] (mean)
+Time per request:       3.441 [ms] (mean)
+Time per request:       0.344 [ms] (mean, across all concurrent requests)
+Transfer rate:          1441.88 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.2      0       5
+Processing:     1    3   1.3      3      22
+Waiting:        1    3   1.2      3      22
+Total:          1    3   1.3      3      23
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      5
+  98%      6
+  99%      7
+ 100%     23 (longest request)
+########################    Prueba 29 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.682 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2715.83 [#/sec] (mean)
+Time per request:       3.682 [ms] (mean)
+Time per request:       0.368 [ms] (mean, across all concurrent requests)
+Transfer rate:          1347.31 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      0       5
+Processing:     1    3   1.6      3      34
+Waiting:        1    3   1.5      3      34
+Total:          1    4   1.6      3      34
+ERROR: The median and mean for the initial connection time are more than twice the standard
+       deviation apart. These results are NOT reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      8
+ 100%     34 (longest request)
+########################    Prueba 30 en el balanceador con haproxy    ######################## 
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.187.136 (be patient)
+
+
+Server Software:        Apache/2.2.22
+Server Hostname:        192.168.187.136
+Server Port:            80
+
+Document Path:          /prueba.html
+Document Length:        232 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.588 seconds
+Complete requests:      10000
+Failed requests:        0
+Total transferred:      5080000 bytes
+HTML transferred:       2320000 bytes
+Requests per second:    2787.41 [#/sec] (mean)
+Time per request:       3.588 [ms] (mean)
+Time per request:       0.359 [ms] (mean, across all concurrent requests)
+Transfer rate:          1382.82 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.2      1       5
+Processing:     1    3   1.1      3      17
+Waiting:        1    3   1.1      3      17
+Total:          1    4   1.1      3      17
+
+Percentage of the requests served within a certain time (ms)
+  50%      3
+  66%      4
+  75%      4
+  80%      4
+  90%      5
+  95%      6
+  98%      7
+  99%      7
+ 100%     17 (longest request)
