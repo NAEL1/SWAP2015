@@ -28,6 +28,13 @@ Para empezar creamos un script php para que las solicitudes sean mas costosas:
  
  ![p4-3](https://github.com/NAEL1/SWAP2015/blob/master/practica4/p4-3.png)
 
+ Una vez otenidos los datos los pasamos a una [hoja de calculo](https://github.com/NAEL1/SWAP2015/blob/master/practica4/ctablas.ods)
+ luego hacemos unas coparativas entre las 3 configuraciones de la granja web ademas tomando como referencia la media y la desviscion tipoca:
+
+ ![cap1](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap1)
+ ![cap2](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap2.png)
+ ![cap3](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap3.png)
+
 
 
 
