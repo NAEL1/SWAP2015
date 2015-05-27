@@ -18,9 +18,10 @@ generamos la clave sda en el host para poder acceder al host sin contraseña.
 ## 2. Comprobar el rendimiento de servidores web con Apache Benchmark
 
 Para empezar creamos un script php para que las solicitudes sean mas costosas:
+
  ![P4-1.png](https://github.com/NAEL1/SWAP2015/blob/master/practica4/p4-1.png).
 
- Tambien para autolatizar un poco las preubas creamos un script bash para hacer una bateria de 30 pruebas y que los guarde en 3 archivos pruebaAbM1.txt pruebaAbBalanceadorNginx.txt  pruebaAbBalanceadorHaproxy.txt
+ Tambien para automatizar un poco las pruebas creamos un script bash para hacer una bateria de 30 pruebas y que los guarde en 3 archivos pruebaAbM1.txt pruebaAbBalanceadorNginx.txt  pruebaAbBalanceadorHaproxy.txt
 
  ![P4-2.png](https://github.com/NAEL1/SWAP2015/blob/master/practica4/p4-2.png)
 
@@ -34,6 +35,15 @@ Para empezar creamos un script php para que las solicitudes sean mas costosas:
  ![cap1](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap1)
  ![cap2](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap2.png)
  ![cap3](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap3.png)
+
+En las graficas se ve que las peticiones a la maquina1 son mas rapidas que a los balanceadores, que el balanceador con Nginx es ligeramente mejor que el balanceador con Haproxy.
+Fijandonos en la desviacion estandar vemos que las peticiones a la maquina 1 tienen menos desviacion con exepcion de el numero de peticion por segundo que hay una desviacion muy alta, en el caso de el balanceador con HAproxy es  bastante elevada comparada con el balanceador con Nginx.
+
+ ## 3. Comprobar el rendimiento con Siege
+
+para automatizar el test de rendimiento con siegue creamos un [script]() donde ejecutamos siege y cambaimos de balanceador , tambien se parseamos los datos que nos interesan y lo guardamos en un formato compatible con CSV, Hacemos una comparativa de los resutados para las difrentes configuraciones:
+
+![]()
 
 
 

@@ -1,0 +1,8 @@
+practica4
+prueba maquina1
+date; time;Transactions;Elapsed time;Data transferred(MB);Response time;Transaction rate;Throughput;Concurrency;
+2015-05-25 18:24:20; 288336;      59,42;          46;       0,01;     4852,51;        0,77;       24,93;  288336;       0
+prueba nginx
+2015-05-25 18:25:58; 171063;      59,23;          27;       0,01;     2888,11;        0,46;       24,93;  171063;       0
+prueba haproxy
+2015-05-25 18:27:35; 219005;      59,05;          35;       0,01;     3708,81;        0,59;       24,92;  219005;       0
