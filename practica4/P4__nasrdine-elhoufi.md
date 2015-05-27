@@ -41,9 +41,9 @@ Fijandonos en la desviacion estandar vemos que las peticiones a la maquina 1 tie
 
  ## 3. Comprobar el rendimiento con Siege
 
-para automatizar el test de rendimiento con siegue creamos un [script]() donde ejecutamos siege y cambaimos de balanceador , tambien se parseamos los datos que nos interesan y lo guardamos en un formato compatible con CSV, Hacemos una comparativa de los resutados para las difrentes configuraciones:
+para automatizar el test de rendimiento con siegue creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica4/script_siege.sh) donde ejecutamos siege y cambaimos de balanceador , tambien se parseamos los datos que nos interesan y lo guardamos en un formato compatible con CSV, Hacemos una comparativa de los resutados para las difrentes configuraciones:
 
-![]()
+![cap4](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap4.png)
 
 
 
