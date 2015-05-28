@@ -45,7 +45,15 @@ para automatizar el test de rendimiento con siegue creamos un [script](https://g
 
 ![cap4](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap4.png)
 
+tal como se ve en las graficas debido a la latencia el balanceador es peor que mandar solicitudes direnctamente a la maquina 1.
 
+## 4. Comprobar el rendimiento con Jmeter
+
+realizamos los test de estres para las 3 configuraciones, como resi¡ultado tenemos las siguientes graficas:
+
+![cap5]()
+![cap6]()
+![cap7]()
 
 
 
