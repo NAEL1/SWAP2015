@@ -53,7 +53,7 @@ realizamos los test de estres para las 3 configuraciones, como resi¡ultado tene
 
 ![cap5](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap5.png)
 ![cap6](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap6.png)
-![cap7](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap6.png)
+![cap7](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap7.png)
 
 
 
