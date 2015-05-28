@@ -51,9 +51,9 @@ tal como se ve en las graficas debido a la latencia el balanceador es peor que m
 
 realizamos los test de estres para las 3 configuraciones, como resi¡ultado tenemos las siguientes graficas:
 
-![cap5]()
-![cap6]()
-![cap7]()
+![cap5](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap5.png)
+![cap6](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap6.png)
+![cap7](https://github.com/NAEL1/SWAP2015/blob/master/practica4/cap6.png)
 
 
 
