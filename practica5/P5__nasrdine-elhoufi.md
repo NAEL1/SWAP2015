@@ -63,4 +63,4 @@ creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/sqlD
 
 finalmente tendremos una copia exacta en la  maquina2:
 
-![cap1.png](https://github.com/NAEL1/SWAP2015/blob/master/practica5/cap1.png)
+![cap1](https://github.com/NAEL1/SWAP2015/blob/master/practica5/cap1.png)
