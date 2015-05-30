@@ -25,7 +25,7 @@ asi se ejecutara todo el script a la vez.
 
 ## 3. Replicar una BD MySQL con mysqldump
 
-creamos un [script]() para automatizar la tarea  que nos crea una base de datos pasandole como argumentos el nombre de la base de datos, nombre de usuario y contraseña, que se conectara a la maquina 1 , hara una copia de seguridad y la traslada a la maquina2 y finalmente la restaura en la maquina2:
+creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/sqlDump.sh) para automatizar la tarea  que nos crea una base de datos pasandole como argumentos el nombre de la base de datos, nombre de usuario y contraseña, que se conectara a la maquina 1 , hara una copia de seguridad y la traslada a la maquina2 y finalmente la restaura en la maquina2:
 
 
 ``` bash
@@ -63,4 +63,4 @@ creamos un [script]() para automatizar la tarea  que nos crea una base de datos 
 
 finalmente tendremos una copia exacta en la  maquina2:
 
-![cap1.png]()
+![cap1.png](https://github.com/NAEL1/SWAP2015/blob/master/practica5/cap1.png)
