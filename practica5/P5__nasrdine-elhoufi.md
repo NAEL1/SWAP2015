@@ -13,11 +13,13 @@ Maquina2 | Ubuntuserver2 | 192.168.187.135
 creo un archivo [querys.sql](https://github.com/NAEL1/SWAP2015/blob/master/practica5/querys.sql) donde gradare las consultas que hare sobre la base de datos con el siguinte contenido:
 
  	```SQL
-	create database contactos;
-	use contactos;
-	create table datos(nombre varchar(100),tlf int);
-	insert into datos(nombre,tlf) values ("pepe",95834987);
-	insert into datos(nombre,tlf) values ("josee",9588585);
+	 	
+		create database contactos;
+		use contactos;
+		create table datos(nombre varchar(100),tlf int);
+		insert into datos(nombre,tlf) values ("pepe",95834987);
+		insert into datos(nombre,tlf) values ("josee",9588585);
+
 	```
 
 luego hago la consulta en la maquina 1 `mysql -uroot -pXXXXXXXX <querys.sql ` donde las X's son la contraseña :eyes:
@@ -61,6 +63,7 @@ creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/sqlD
 	```
 
 
-finalmente tendremos una copia exacta en la  maquina2:
+finalmente tendremos una copia exacta en la  maquina2
+
 
 ![cap1](https://github.com/NAEL1/SWAP2015/blob/master/practica5/cap1.png)
