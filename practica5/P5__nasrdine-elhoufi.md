@@ -67,3 +67,6 @@ finalmente tendremos una copia exacta en la  maquina2
 
 
 ![cap1](https://github.com/NAEL1/SWAP2015/blob/master/practica5/cap1.png)
+
+## 4. Replicación de BD mediante una configuración
+maestro-esclavo
