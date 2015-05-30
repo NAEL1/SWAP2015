@@ -12,7 +12,7 @@ Maquina3 | Balanceador	|	192.168.187.136
 
 creo un archivo [querys.sql]() donde gradare las consultas que hare sobre la base de datos con el siguinte contenido:
 
- 	```sql
+ 	```SQL
 	create database contactos;
 	use contactos;
 	create table datos(nombre varchar(100),tlf int);
@@ -20,4 +20,5 @@ creo un archivo [querys.sql]() donde gradare las consultas que hare sobre la bas
 	insert into datos(nombre,tlf) values ("josee",9588585);
 	```
 
-luego hago la consulta en la maquina 1 'mysql'
+luego hago la consulta en la maquina 1 `mysql -uroot -pXXXXXXXX <querys.sql `
+asi se ejecutara todo el script a la vez.
