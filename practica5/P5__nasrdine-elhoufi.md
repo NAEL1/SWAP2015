@@ -26,7 +26,7 @@ asi se ejecutara todo el script a la vez.
 
 ## 3. Replicar una BD MySQL con mysqldump
 
-creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/sqlDump.sh) para automatizar la tarea  que nos crea una base de datos pasandole como argumentos el nombre de la base de datos, nombre de usuario y contraseña, que se conectara a la maquina 1 , hara una copia de seguridad y la traslada a la maquina2 y finalmente la restaura en la maquina2:
+creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/sqlDump.sh) para automatizar la tarea  que nos crea una base de datos pasandole como argumentos el nombre de la base de datos, nombre de usuario y contraseña, que se conectara a la maquina 1 , haga una copia de seguridad local  y la traslada a la maquina2 y finalmente la restaura en la maquina2:
 
 
 ``` bash
@@ -52,13 +52,13 @@ creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/sqlD
 	#conectamos con la maquina 1 y bloqueamos  las tablas
 	ssh root@192.168.187.133 'mysql -uroot -pXXXXXXX -e "FLUSH TABLES WITH READ LOCK;" '
 	# hacemos la copia de seguridad 
-	ssh root@192.168.187.133 'mysqldump contactos -u root -p > /root/contactos.sql'
+	ssh root@192.168.187.133 'mysqldump contactos -u root -pXXXXXXXX > /root/contactos.sql'
 	# desbloqueamos las tablas
 	ssh root@192.168.187.133 'mysql -uroot -pXXXXXXX -e "UNLOCK TABLES;"'
 	#copiamos la bd en la maquina2
 	scp root@192.168.187.133:/root/contactos.sql /root/
 	#abrimos bd local y restauramos los datos contenidos en contactos.sql
-	mysql -uroot -p601988 contactos < /root/contactos.sql
+	mysql -uroot -pXXXXXXXX contactos < /root/contactos.sql
 
 ```
 
@@ -70,3 +70,46 @@ finalmente tendremos una copia exacta en la  maquina2
 
 
 ## 4. Replicación de BD mediante una configuración maestro-esclavo
+
+
+Configuramos el archivo de configuracion del maestro (/etc/mysql/my.cnf) de la sieguiente manera:
+
+	1. comentamos la linea:
+		bind-address 127.0.0.1
+	2. indicamos el archivo donde se almacenara el log de errores
+		log_error = /var/log/mysql/error.log
+	3. establecemos el id del servidor
+		server-id = 1
+	4. indicamos el archivo donde se almacenara  el registro de actualizaciones
+		log_bin = /var/log/mysql/bin.log
+
+Guardamos el archivo y reiniciamos el servicio.
+
+Para elel archivo de configuracion del esclavo haremos lo mismo con la exepcion de que el server-id = 2 
+
+ahora vamos al maestro y creamos en el un usuario 'esclavo' ,le damos priviligios  y bloqueamos las tablas, en mi caso todo dentro de un [script]() llamado 'esclavo.sql':
+
+``` sql
+	CREATE USER esclavo IDENTIFIED BY 'esclavo';
+	GRANT REPLICATION SLAVE ON *.* TO 'esclavo'@'%' IDENTIFIED BY 'esclavo';
+	FLUSH PRIVILEGES;
+	FLUSH TABLES;
+	FLUSH TABLES WITH READ LOCK;
+```
+
+y lo ejecuto en el maestro con el comando ` mysql -uroot -p < escalvo.sql`. para ver que todo ha ido bien entro en mysql y ejecuto `show master status`
+![captura2]()
+
+ahora configuro el escalvo para ello creo otro [script]() llamado maestro.sql y ejecuto en el esclavo:
+`mysql -uroot -p <maestro.sql`
+ despues vuelvo al maestro  y activo el maestro con `UNLOCK TABLES;`
+ 
+ en la siguiente imagen se muestra que todo ha ido bien:
+
+ ![captura3]()
+ahora añado una fila en la tabla datos del maestro:
+ `insert into datos(nombre,tlf) values ("nas",95888888);`
+
+y compruebo si se ha actualizado el escalvo:
+
+ ![captura4]()
