@@ -89,7 +89,7 @@ Para elel archivo de configuracion del esclavo haremos lo mismo con la exepcion 
 
 ahora vamos al maestro y creamos en el un usuario 'esclavo' ,le damos priviligios  y bloqueamos las tablas, en mi caso todo dentro de un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/esclavo.sql) llamado 'esclavo.sql':
 
-``` sqlhttps://github.com/NAEL1/SWAP2015/blob/master/practica5/esclavo.sqlo IDENTIFIED BY 'esclavo';
+``` sql
 	GRANT REPLICATION SLAVE ON *.* TO 'esclavo'@'%' IDENTIFIED BY 'esclavo';
 	FLUSH PRIVILEGES;
 	FLUSH TABLES;
