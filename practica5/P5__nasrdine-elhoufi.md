@@ -87,10 +87,9 @@ Guardamos el archivo y reiniciamos el servicio.
 
 Para elel archivo de configuracion del esclavo haremos lo mismo con la exepcion de que el server-id = 2 
 
-ahora vamos al maestro y creamos en el un usuario 'esclavo' ,le damos priviligios  y bloqueamos las tablas, en mi caso todo dentro de un [script]() llamado 'esclavo.sql':
+ahora vamos al maestro y creamos en el un usuario 'esclavo' ,le damos priviligios  y bloqueamos las tablas, en mi caso todo dentro de un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/esclavo.sql) llamado 'esclavo.sql':
 
-``` sql
-	CREATE USER esclavo IDENTIFIED BY 'esclavo';
+``` sqlhttps://github.com/NAEL1/SWAP2015/blob/master/practica5/esclavo.sqlo IDENTIFIED BY 'esclavo';
 	GRANT REPLICATION SLAVE ON *.* TO 'esclavo'@'%' IDENTIFIED BY 'esclavo';
 	FLUSH PRIVILEGES;
 	FLUSH TABLES;
@@ -98,18 +97,19 @@ ahora vamos al maestro y creamos en el un usuario 'esclavo' ,le damos priviligio
 ```
 
 y lo ejecuto en el maestro con el comando ` mysql -uroot -p < escalvo.sql`. para ver que todo ha ido bien entro en mysql y ejecuto `show master status`
-![captura2]()
+![captura2](https://github.com/NAEL1/SWAP2015/blob/master/practica5/captura2.png)
 
-ahora configuro el escalvo para ello creo otro [script]() llamado maestro.sql y ejecuto en el esclavo:
+ahora configuro el escalvo para ello creo otro [script](https://github.com/NAEL1/SWAP2015/blob/master/practica5/esclavo.sql) llamado maestro.sql y ejecuto en el esclavo:
 `mysql -uroot -p <maestro.sql`
  despues vuelvo al maestro  y activo el maestro con `UNLOCK TABLES;`
  
  en la siguiente imagen se muestra que todo ha ido bien:
 
- ![captura3]()
+ ![captura3](https://github.com/NAEL1/SWAP2015/blob/master/practica5/captura3.png)
 ahora añado una fila en la tabla datos del maestro:
  `insert into datos(nombre,tlf) values ("nas",95888888);`
 
 y compruebo si se ha actualizado el escalvo:
 
- ![captura4]()
+ ![captura4](https://github.com/NAEL1/SWAP2015/blob/master/practica5/captura4.png)
+ tal como se ve en la captura de patalla, la tabla datos se ha actualizado.
