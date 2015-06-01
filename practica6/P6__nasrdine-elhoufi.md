@@ -23,7 +23,7 @@ Seguidamente buscamos la informacion de ambos discos con el comando:
 	sudo fdisk -l 
 ```
 
-![captura2]()
+![captura2](https://github.com/NAEL1/SWAP2015/blob/master/practica6/captura2.png)
 
 Como se aprecia en la captura de pantalla los path de discos que hemos creado recientemente son:
 /dev/sdb
@@ -35,7 +35,7 @@ Procedemos a crear el RAID1 (/dev/md0) con los 2 discos anteriores, para ello ej
 	sudo mdadm -C /dev/md0 --level=raid1 --raid-devices=2 /dev/sdb /dev/sdc
 ```
 
-![captura3]()
+![captura3](https://github.com/NAEL1/SWAP2015/blob/master/practica6/captura3.png)
 
 Damos formato al nuevo dispositivo RAID con:
 
@@ -49,13 +49,13 @@ Ahora cramos el directorio  que se montara en el RAID y lo montamos:
 	sudo mkdir /datos
 	sudo mount /dev/md0 /datos	
 ``` 
-![captura4]()
+![captura4](https://github.com/NAEL1/SWAP2015/blob/master/practica6/captura4.png)
 
 Finalmente para comprobar el estado de RAID ejecutamos:
 
 ``` bash
 	sudo mdadm --detail /dev/md0	
 ```
-![captura5]()
+![captura5](https://github.com/NAEL1/SWAP2015/blob/master/practica6/captura5.png)
 
 
