@@ -1,0 +1,9 @@
+
+{
+  "name": "api-rest",  
+  "version": "0.0.1", 
+  "dependencies": { 	
+    "mongoose": "3.6.11",  
+    "express": "3.2.6"
+  }	 
+}
