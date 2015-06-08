@@ -39,7 +39,7 @@ Para empezar creamos un script php para que las solicitudes sean mas costosas:
 En las graficas se ve que las peticiones a la maquina1 son mas rapidas que a los balanceadores, que el balanceador con Nginx es ligeramente mejor que el balanceador con Haproxy.
 Fijandonos en la desviacion estandar vemos que las peticiones a la maquina 1 tienen menos desviacion con exepcion de el numero de peticion por segundo que hay una desviacion muy alta, en el caso de el balanceador con HAproxy es  bastante elevada comparada con el balanceador con Nginx.
 
- ## 3. Comprobar el rendimiento con Siege
+## 3. Comprobar el rendimiento con Siege
 
 para automatizar el test de rendimiento con siegue creamos un [script](https://github.com/NAEL1/SWAP2015/blob/master/practica4/script_siege.sh) donde ejecutamos siege y cambaimos de balanceador , tambien se parseamos los datos que nos interesan y lo guardamos en un formato compatible con CSV, Hacemos una comparativa de los resutados para las difrentes configuraciones:
 

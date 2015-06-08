@@ -1,0 +1,37 @@
+//prueba.txt
+
+
+{
+	"_id" : 1 ,
+	"nombre": "pw",
+	"año" : 3,
+	"convocatorias" : 1,
+	"tipo" : "troncal",
+	"estado" : "cursando"
+
+}
+
+
+
+
+{
+	"_id" : 2 ,
+	"nombre": "swap",
+	"año" : 3,
+	"convocatorias" : 1,
+	"tipo" : "optativa",
+	"estado" : "cursando"
+
+}
+
+
+
+{
+	"_id" : 3,
+	"nombre": "pdih",
+	"año" : 3,
+	"convocatorias" : 1,
+	"tipo" : "optativa",
+	"estado" : "aprobada",
+
+}
