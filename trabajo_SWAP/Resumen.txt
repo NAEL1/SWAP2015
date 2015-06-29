@@ -1,0 +1,1 @@
+Este trabajo versa sobre la Filosofia REST, pretendemos arrojar un poco de luz sobre sus conceptos además de dar un ejemplo práctico de una API REST simple hecha con NodeJS, express y mongoDB, que tendrá como funcionalidad gestionar las asignaturas cursadas en una carrera universitaria.

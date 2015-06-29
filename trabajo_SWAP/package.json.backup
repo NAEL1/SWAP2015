@@ -1,0 +1,11 @@
+
+{
+  "name": "api-rest",  //nombre de la api
+  "version": "0.0.1",  // version de la api
+  "dependencies": { 	// dependencias
+    "mongoose": "~3.6.11",  // framework para conectarnos a mongoDB
+    "express": "^4.7.1",	// express
+    "method-override": "^2.1.2", // middleware usado por espress
+    "body-parser": "^1.5.1"		 // middleware usado por espress
+  }
+}
