@@ -59,3 +59,17 @@ Finalmente para comprobar el estado de RAID ejecutamos:
 ![captura5](https://github.com/NAEL1/SWAP2015/blob/master/practica6/captura5.png)
 
 
+## 3. Automatizacion del montaje del dispositivo RAID:
+
+vamos a localizar el UUID(Universal Unique IDentifier) de la particion, con el cual el kernel puede localizar y mapear de forma automatica  la particion, lo cual nos ahorrar tiempo en el caso de que lo pase algo a /etc/fstab.Para ello ejecutamos en modo super usuario:
+
+``` bash
+	sudo blkib | grep /dev/md0 | cit -d ' " ' -f2 >> /etc/fstab
+``` 
+ya tenemos el UUID de /dev/md0 en el fstab solo nos falta completar las opciones del motaje:
+siguendo este parton
+` UUID={YOUR-UID}    {/path/to/mount/point}               {file-system-type}    defaults,errors=remount-ro 0       1`
+
+
+![captura6](https://github.com/NAEL1/SWAP2015/blob/master/practica6/captura6.png)
+
