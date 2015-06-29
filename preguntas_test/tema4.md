@@ -1,6 +1,6 @@
 # Preguntas Tema 4
 
-### 1.¿ CUl de estas tareas no puede realizar un balanceador de carga?
+### 1.¿ Cual de estas tareas no puede realizar un balanceador de carga?
 	a) proteger de diversos ataques.
 	b) levantar los servicios caidos.
 	c) comprobar la disponibilidad de los servidores.
