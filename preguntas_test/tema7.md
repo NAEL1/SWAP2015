@@ -1,6 +1,6 @@
 # Preguntas Tema 6
 
-### 1.¿Cual es el RAID con significa ausencia de RAID?
+### 1.¿Cual es el RAID que significa ausencia de RAID?
 	a) RAID 0
 	b) RAID 1
 	c) RAID 4
